@@ -1,0 +1,122 @@
+header {
+  padding: 154px 0 100px;
+  background: url(../../img/tokyo.jpg) no-repeat;
+  /*background-color: #a22041;*/
+  background-position: center;
+  background-size: auto 100%;
+}
+
+a{
+  color: #a22041;
+}
+
+a:hover{
+  color: #E12E5D;
+}
+
+.banner{
+	background: rgba(0,0,0,.5)!important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+h1{
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+
+.interest{
+	line-height: 1.8;
+}
+
+.date-title{
+	margin-bottom: 1.5rem;
+}
+.date{
+	margin-bottom: 0.6rem;
+}
+
+.name-title{
+	margin-bottom: 0.2rem;
+}
+
+.text-white-80{
+	color: rgba(255,255,255,.7)!important;
+}
+
+.cmt{
+	text-decoration: underline;
+}
+
+#program tr {
+  border-top: 1px solid #dee2e6;
+}
+
+#program tr td, #program tr td p{
+  text-align: left;
+}
+
+#program tr td{
+  vertical-align: top;
+}
+
+#program tr td h4 {
+  font-size: 1.1rem;
+}
+
+#program tr td{
+  padding: 10px 0 5px 0;
+}
+
+
+
+.portfolio-modal .portfolio-modal-dialog {
+  padding: 3rem 1rem;
+  min-height: calc(50vh - 2rem);
+  margin: 1rem calc(1rem - 8px);
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button span{
+  line-height: 38px;
+  font-size: 2em;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button:hover{
+	text-decoration: none;
+}
+
+
+
+@media (min-width: 768px) {
+  .portfolio-modal .portfolio-modal-dialog {
+    min-height: 50vh;
+    padding: 5rem;
+    margin: 3rem calc(3rem - 8px);
+  }
+
+}
