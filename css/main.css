@@ -51,7 +51,7 @@ h2 {
   background-size: cover; /* 将背景图像调整为覆盖整个容器 */
   background-position: center center; /* 将背景图像定位在容器的中心 */
   border-radius: 50%; /* 将容器的边角设置为50%的值，从而将其形状变为椭圆形 */
-  margin: 30px 30px ;
+  margin: 10% 10% ;
   width: 175px;
   height: 200px;
 }
